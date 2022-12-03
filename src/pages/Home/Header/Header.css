@@ -1,0 +1,8 @@
+.header img{
+    width: 25px;
+}
+.container .navlink{
+    position: absolute;
+    right: 55px;;
+    top: 5px;
+}

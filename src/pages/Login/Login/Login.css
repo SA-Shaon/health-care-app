@@ -1,0 +1,64 @@
+.login-container {
+    border-radius: 12px;
+    width: 400px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 5px 3px rgba(142, 188, 231, 0.774);
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field input {
+    border: none;
+    border-bottom: 1.5px solid gray;
+    width: 100%;
+}
+
+.form-field input:focus {
+    outline: none;
+    border-bottom: 1.5px solid black;
+}
+
+.forget-btn {
+    font-size: 14px;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media button {
+    border: none;
+    background-image: linear-gradient(to left, rgb(46, 46, 209), rgb(186, 186, 238));
+    color: white;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media img {
+    width: 25px;
+    margin-left: 5px;
+}
+
+.btn-submit {
+    border: none;
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(46, 46, 209), rgb(186, 186, 238));
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
